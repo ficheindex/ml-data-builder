@@ -60,3 +60,20 @@ func (b *Builder) getFeatureData(featureName string) []string {
 	}
 	// readStringColumn(items, featureName, b.data)
 	return items
+}
+
+// GetFeature returns a feature in the detaset based on it's name
+func (b *Builder) GetFeature(name string) *Feature {
+	var feat *Feature
+	if val, ok := b.featureMap[name]; ok {
+		feat = val
+		return feat
+	}
+	// err := errors.New("No such Feature in builder")
+	return feat
+}
+
+func (b *Builder) writeRecord(writer csv.Writer, i int) error {
+	var record []string
+	for index, j := range b.data[i] {
+		// if data header (feature name) has noSave == false, else don't write
