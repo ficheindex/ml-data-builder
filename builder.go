@@ -77,3 +77,13 @@ func (b *Builder) writeRecord(writer csv.Writer, i int) error {
 	var record []string
 	for index, j := range b.data[i] {
 		// if data header (feature name) has noSave == false, else don't write
+		if !b.featureMap[b.data[0][index]].noSave {
+			record = append(record, j)
+		}
+	}
+	err := writer.Write(record)
+	if err != nil {
+		return err
+	}
+	return nil
+}
