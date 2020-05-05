@@ -109,3 +109,25 @@ func (b *Builder) SaveIf(writer csv.Writer, saveCond func(r []string) bool) erro
 			}
 		}
 	}
+	return nil
+}
+
+// AddFeatures adds a Feature struct to the "Features" Field on Builder
+func (b *Builder) AddFeatures(features ...*Feature) {
+	for _, feature := range features {
+		feature.noSave = false
+		b.featureMap[feature.Name] = feature
+		// TODO: Return error if feature with same name has been added
+	}
+	// Increase size of data matrix if feature map is larger than initially allocated
+	if len(b.featureMap) > len(b.data[0]) {
+		for i := range b.data {
+			b.data[i] = append(b.data[i], "")
+		}
+	}
+}
+
+func (b *Builder) createRequest(
+	endpoint string,
+) (*http.Request, error) {
+	headers := b.RequestHeaders
