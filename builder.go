@@ -131,3 +131,27 @@ func (b *Builder) createRequest(
 	endpoint string,
 ) (*http.Request, error) {
 	headers := b.RequestHeaders
+
+	req, err := http.NewRequest("GET", b.BaseURL+endpoint, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	// only add this if the auth credentials are set by an option
+	if b.authUsername != "" && b.authPassword != "" {
+		req.SetBasicAuth(b.authUsername, b.authPassword)
+	}
+
+	for k, v := range headers {
+		req.Header.Add(k, v)
+	}
+	return req, nil
+}
+
+// resolve endpoint templates to actual values for endpoints based on parent features
+func (b *Builder) resolveFeatureEndpoints(feature *Feature) ([]string, error) {
+	endpoints := make([]string, b.records)
+	parents, err := feature.getParentNames()
+	if err != nil {
+		return nil, err
+	}
