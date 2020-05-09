@@ -155,3 +155,26 @@ func (b *Builder) resolveFeatureEndpoints(feature *Feature) ([]string, error) {
 	if err != nil {
 		return nil, err
 	}
+
+	for i := 0; i < b.records; i++ {
+		parentValuesMap := make(map[string]string)
+		for _, j := range parents {
+			parentValuesMap[j] = b.getFeatureData(j)[i]
+		}
+		var resolveEndpointError error
+		endpoints[i], resolveEndpointError = feature.resolveEndpoint(parentValuesMap)
+		if resolveEndpointError != nil {
+			return nil, resolveEndpointError
+		}
+	}
+
+	return endpoints, nil
+}
+
+type endpointClient interface {
+	Do(req http.Request) (*http.Response, error)
+}
+
+// populateFeatureData returns string dumps of responses and an error if any
+func (b *Builder) populateFeatureData(feature *Feature, client endpointClient) ([]string, error) {
+	responseDumps := make([]string, b.records)
