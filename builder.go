@@ -220,3 +220,20 @@ func (b *Builder) Run(client endpointClient) error {
 		go func(feature *Feature) {
 			// Block till parent features finish executing
 			for _, i := range parents {
+				<-b.GetFeature(i).finished
+			}
+
+			parsedResponses := make([]string, b.records)
+			parsedResponses, populateError = b.populateFeatureData(feature, client)
+
+			output := feature.RunFunc(parsedResponses)
+			b.addFeatureData(feature.Name, output)
+
+			feature.finished <- true // Write to feature.finished channel
+			close(feature.finished)
+		}(feature)
+
+		if populateError != nil {
+			return populateError
+		}
+	}
