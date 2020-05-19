@@ -9,4 +9,4 @@ import (
 	"testing"
 )
 
-func Test
+func TestNewBuilder(t *testing.T
