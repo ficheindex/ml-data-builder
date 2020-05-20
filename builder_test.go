@@ -9,4 +9,5 @@ import (
 	"testing"
 )
 
-func TestNewBuilder(t *testing.T
+func TestNewBuilder(t *testing.T) {
+	b := NewBuilder(4, 
