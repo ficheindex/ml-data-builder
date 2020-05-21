@@ -10,4 +10,5 @@ import (
 )
 
 func TestNewBuilder(t *testing.T) {
-	b := NewBuilder(4, 
+	b := NewBuilder(4, 100)
+	if got, want := 
