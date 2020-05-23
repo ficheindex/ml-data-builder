@@ -12,4 +12,4 @@ import (
 func TestNewBuilder(t *testing.T) {
 	b := NewBuilder(4, 100)
 	if got, want := len(b.data), 101; got != want {
-		t.Fatalf(
+		t.Fatalf("got: %v\n wa
