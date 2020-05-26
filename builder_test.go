@@ -14,4 +14,5 @@ func TestNewBuilder(t *testing.T) {
 	if got, want := len(b.data), 101; got != want {
 		t.Fatalf("got: %v\n want: %v\n ", got, want)
 	}
-	if got, want := len(b.data[0]), 4; got !=
+	if got, want := len(b.data[0]), 4; got != want {
+		t.Fatalf(
