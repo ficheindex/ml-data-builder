@@ -17,4 +17,4 @@ func TestNewBuilder(t *testing.T) {
 	if got, want := len(b.data[0]), 4; got != want {
 		t.Fatalf("got: %v\n want: %v\n ", got, want)
 	}
-	if got,
+	if got, want := b.records
