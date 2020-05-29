@@ -18,4 +18,8 @@ func TestNewBuilder(t *testing.T) {
 		t.Fatalf("got: %v\n want: %v\n ", got, want)
 	}
 	if got, want := b.records, 100; got != want {
-		t.Fatalf("got: %v\n want: %v\n ", got, want
+		t.Fatalf("got: %v\n want: %v\n ", got, want)
+	}
+}
+
+func TestA
