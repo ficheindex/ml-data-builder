@@ -22,4 +22,4 @@ func TestNewBuilder(t *testing.T) {
 	}
 }
 
-func TestAddFeatureData(t *
+func TestAddFeatureData(t *testing.T) {
