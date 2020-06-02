@@ -24,4 +24,5 @@ func TestNewBuilder(t *testing.T) {
 
 func TestAddFeatureData(t *testing.T) {
 	b := NewBuilder(4, 3)
-	b.addFeatureData("newFeature", []string{"one",
+	b.addFeatureData("newFeature", []string{"one", "two", "three"})
+	expe
