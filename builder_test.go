@@ -28,4 +28,5 @@ func TestAddFeatureData(t *testing.T) {
 	expectedData := [][]string{
 		[]string{"newFeature", "", "", ""},
 		[]string{"one", "", "", ""},
-		[]string{"two", "
+		[]string{"two", "", "", ""},
+		[]stri
