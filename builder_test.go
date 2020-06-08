@@ -29,4 +29,5 @@ func TestAddFeatureData(t *testing.T) {
 		[]string{"newFeature", "", "", ""},
 		[]string{"one", "", "", ""},
 		[]string{"two", "", "", ""},
-		[]stri
+		[]string{"three", "", "", ""},
+	}
