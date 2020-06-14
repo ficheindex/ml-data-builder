@@ -32,4 +32,4 @@ func TestAddFeatureData(t *testing.T) {
 		[]string{"three", "", "", ""},
 	}
 	if got, want := b.data, expectedData; !reflect.DeepEqual(got, want) {
-		t.Fatalf
+		t.Fatalf("got: %v\n want: %
