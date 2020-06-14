@@ -31,4 +31,4 @@ func TestAddFeatureData(t *testing.T) {
 		[]string{"two", "", "", ""},
 		[]string{"three", "", "", ""},
 	}
-	if got, want := b.data, 
+	if got, want := b.data, expectedData; !refl
