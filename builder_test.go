@@ -37,4 +37,5 @@ func TestAddFeatureData(t *testing.T) {
 }
 
 func TestAddFeature(t *testing.T) {
-	f := &Feat
+	f := &Feature{
+		Name:     "feat1
