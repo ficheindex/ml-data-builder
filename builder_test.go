@@ -41,4 +41,4 @@ func TestAddFeature(t *testing.T) {
 		Name:     "feat1",
 		Endpoint: "/endpoint1/",
 		RunFunc: func(res []string) []string {
-			return [
+			return []string{"one", "two", "thr
