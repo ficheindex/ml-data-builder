@@ -44,4 +44,4 @@ func TestAddFeature(t *testing.T) {
 			return []string{"one", "two", "three"}
 		},
 	}
-	b 
+	b := NewBuilder
