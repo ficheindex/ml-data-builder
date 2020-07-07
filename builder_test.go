@@ -46,4 +46,4 @@ func TestAddFeature(t *testing.T) {
 	}
 	b := NewBuilder(4, 3)
 	b.AddFeatures(f)
-	if got
+	if got, want := b.fea
