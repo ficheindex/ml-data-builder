@@ -46,4 +46,5 @@ func TestAddFeature(t *testing.T) {
 	}
 	b := NewBuilder(4, 3)
 	b.AddFeatures(f)
-	if got, want := b.featureMap["feat1"], f
+	if got, want := b.featureMap["feat1"], f; got != want {
+		
