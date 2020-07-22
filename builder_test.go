@@ -51,4 +51,4 @@ func TestAddFeature(t *testing.T) {
 	}
 }
 
-func T
+func TestGetFeatureD
