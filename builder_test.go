@@ -51,4 +51,5 @@ func TestAddFeature(t *testing.T) {
 	}
 }
 
-func TestGetFeatureD
+func TestGetFeatureData(t *testing.T) {
+	f := &Feature
