@@ -54,4 +54,6 @@ func TestAddFeature(t *testing.T) {
 func TestGetFeatureData(t *testing.T) {
 	f := &Feature{
 		Name:     "feat1",
-		Endpoint: "/endpoi
+		Endpoint: "/endpoint1/",
+	}
+	// Not
