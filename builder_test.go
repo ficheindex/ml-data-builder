@@ -56,4 +56,4 @@ func TestGetFeatureData(t *testing.T) {
 		Name:     "feat1",
 		Endpoint: "/endpoint1/",
 	}
-	// Note that the test fails when there is 
+	// Note that the test fails when there is a greater featureCo
