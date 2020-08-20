@@ -57,4 +57,5 @@ func TestGetFeatureData(t *testing.T) {
 		Endpoint: "/endpoint1/",
 	}
 	// Note that the test fails when there is a greater featureCount
-	// than there are features when builder.getFeatur
+	// than there are features when builder.getFeatureData is called
+	b := NewBu
