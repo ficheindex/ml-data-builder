@@ -59,4 +59,4 @@ func TestGetFeatureData(t *testing.T) {
 	// Note that the test fails when there is a greater featureCount
 	// than there are features when builder.getFeatureData is called
 	b := NewBuilder(1, 3)
-	data :=
+	data := []string{"one", "t
