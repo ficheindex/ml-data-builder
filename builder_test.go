@@ -61,4 +61,5 @@ func TestGetFeatureData(t *testing.T) {
 	b := NewBuilder(1, 3)
 	data := []string{"one", "two", "three"}
 
-	b.
+	b.AddFeatures(f)
+	err := b
