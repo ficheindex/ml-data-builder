@@ -64,4 +64,5 @@ func TestGetFeatureData(t *testing.T) {
 	b.AddFeatures(f)
 	err := b.addFeatureData(f.Name, data)
 
-	if err != n
+	if err != nil {
+		t.Errorf("Erro
