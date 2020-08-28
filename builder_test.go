@@ -62,4 +62,6 @@ func TestGetFeatureData(t *testing.T) {
 	data := []string{"one", "two", "three"}
 
 	b.AddFeatures(f)
-	err := b.addFeatureData(f.Nam
+	err := b.addFeatureData(f.Name, data)
+
+	if err != n
