@@ -65,4 +65,4 @@ func TestGetFeatureData(t *testing.T) {
 	err := b.addFeatureData(f.Name, data)
 
 	if err != nil {
-		t.Errorf("Erro
+		t.Errorf("Error Occured: %v",
