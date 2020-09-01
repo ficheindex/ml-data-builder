@@ -68,4 +68,4 @@ func TestGetFeatureData(t *testing.T) {
 		t.Errorf("Error Occured: %v", err)
 	}
 
-	want := []stri
+	want := []string{"one", "two
