@@ -68,4 +68,5 @@ func TestGetFeatureData(t *testing.T) {
 		t.Errorf("Error Occured: %v", err)
 	}
 
-	want := []string{"one", "two
+	want := []string{"one", "two", "three"}
+	if got :=
