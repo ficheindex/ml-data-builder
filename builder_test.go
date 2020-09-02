@@ -69,4 +69,4 @@ func TestGetFeatureData(t *testing.T) {
 	}
 
 	want := []string{"one", "two", "three"}
-	if got :=
+	if got := b.getFeatureData
