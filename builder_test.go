@@ -74,4 +74,4 @@ func TestGetFeatureData(t *testing.T) {
 	}
 }
 
-func TestGetFeat
+func TestGetFeature(t *testing.T) {
