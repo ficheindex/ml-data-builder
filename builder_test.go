@@ -78,4 +78,5 @@ func TestGetFeature(t *testing.T) {
 	f := &Feature{
 		Name:     "feat1",
 		Endpoint: "/endpoint1/",
-		RunFunc: func(res []string) [
+		RunFunc: func(res []string) []string {
+			return []
