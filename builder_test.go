@@ -82,4 +82,5 @@ func TestGetFeature(t *testing.T) {
 			return []string{"one", "two", "three"}
 		},
 	}
-	b := NewBuilde
+	b := NewBuilder(4, 3)
+	b.AddFeatur
