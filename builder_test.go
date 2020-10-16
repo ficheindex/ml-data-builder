@@ -84,4 +84,4 @@ func TestGetFeature(t *testing.T) {
 	}
 	b := NewBuilder(4, 3)
 	b.AddFeatures(f)
-	if got, wan
+	if got, want := b.GetFeature("fe
