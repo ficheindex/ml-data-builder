@@ -84,4 +84,5 @@ func TestGetFeature(t *testing.T) {
 	}
 	b := NewBuilder(4, 3)
 	b.AddFeatures(f)
-	if got, want := b.GetFeature("feat1"), f; !reflect.DeepEqual(got, want
+	if got, want := b.GetFeature("feat1"), f; !reflect.DeepEqual(got, want) {
+		t.Fatalf("got:
