@@ -90,4 +90,4 @@ func TestGetFeature(t *testing.T) {
 }
 
 func TestGetFeatureIfNoFeatures(t *testing.T) {
-	var NilFe
+	var NilFeature *Feat
