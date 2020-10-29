@@ -89,4 +89,4 @@ func TestGetFeature(t *testing.T) {
 	}
 }
 
-func TestGetFeatu
+func TestGetFeatureIfNoFeatures(t *testin
