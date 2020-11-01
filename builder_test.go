@@ -90,4 +90,5 @@ func TestGetFeature(t *testing.T) {
 }
 
 func TestGetFeatureIfNoFeatures(t *testing.T) {
-	var NilFeature *Feat
+	var NilFeature *Feature
+	b := NewBuilder(4, 
