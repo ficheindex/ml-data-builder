@@ -93,4 +93,4 @@ func TestGetFeatureIfNoFeatures(t *testing.T) {
 	var NilFeature *Feature
 	b := NewBuilder(4, 3)
 	if got, want := b.GetFeature("feat1"), NilFeature; !reflect.DeepEqual(got, want) {
-		t.Fatalf("got: %v
+		t.Fatalf("got: %v\n want: %v\n ", got, wa
