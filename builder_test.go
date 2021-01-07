@@ -97,4 +97,4 @@ func TestGetFeatureIfNoFeatures(t *testing.T) {
 	}
 }
 
-fun
+func TestCreateRequest(t *tes
