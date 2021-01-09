@@ -98,4 +98,5 @@ func TestGetFeatureIfNoFeatures(t *testing.T) {
 }
 
 func TestCreateRequest(t *testing.T) {
-	b := NewBuilder(4, 3) // arbitrary preallocati
+	b := NewBuilder(4, 3) // arbitrary preallocations
+	b.BaseUR
