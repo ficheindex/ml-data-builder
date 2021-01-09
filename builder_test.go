@@ -98,4 +98,4 @@ func TestGetFeatureIfNoFeatures(t *testing.T) {
 }
 
 func TestCreateRequest(t *testing.T) {
-	b :=
+	b := NewBuilder(4, 3) /
