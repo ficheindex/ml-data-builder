@@ -101,4 +101,4 @@ func TestCreateRequest(t *testing.T) {
 	b := NewBuilder(4, 3) // arbitrary preallocations
 	b.BaseURL = "baseurl.com"
 	sampleOAuthHeader := BasicOAuthHeader(
-		"consumerK
+		"consumerKey", "nonce", "sign
