@@ -102,4 +102,4 @@ func TestCreateRequest(t *testing.T) {
 	b.BaseURL = "baseurl.com"
 	sampleOAuthHeader := BasicOAuthHeader(
 		"consumerKey", "nonce", "signature", "signatureMethod",
-		"times
+		"timestamp", "token",
