@@ -103,3 +103,5 @@ func TestCreateRequest(t *testing.T) {
 	sampleOAuthHeader := BasicOAuthHeader(
 		"consumerKey", "nonce", "signature", "signatureMethod",
 		"timestamp", "token",
+	)
+	b.Request
