@@ -104,4 +104,4 @@ func TestCreateRequest(t *testing.T) {
 		"consumerKey", "nonce", "signature", "signatureMethod",
 		"timestamp", "token",
 	)
-	b.Request
+	b.RequestHeaders = map[string]string{
