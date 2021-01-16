@@ -107,4 +107,6 @@ func TestCreateRequest(t *testing.T) {
 	b.RequestHeaders = map[string]string{
 		"OAuth": sampleOAuthHeader,
 	}
-	endpoint := "/my
+	endpoint := "/myEndpoint"
+
+	got, err :
