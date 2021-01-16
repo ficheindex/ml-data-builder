@@ -109,4 +109,4 @@ func TestCreateRequest(t *testing.T) {
 	}
 	endpoint := "/myEndpoint"
 
-	got, err :
+	got, err := b.createRequest
