@@ -111,4 +111,7 @@ func TestCreateRequest(t *testing.T) {
 
 	got, err := b.createRequest(endpoint)
 	if err != nil {
-		t.Errorf("Error Occured: %v", err
+		t.Errorf("Error Occured: %v", err)
+	}
+
+	u, err 
