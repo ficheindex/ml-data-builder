@@ -114,4 +114,4 @@ func TestCreateRequest(t *testing.T) {
 		t.Errorf("Error Occured: %v", err)
 	}
 
-	u, err 
+	u, err := url.Parse(b.Bas
