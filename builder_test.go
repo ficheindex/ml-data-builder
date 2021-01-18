@@ -115,4 +115,5 @@ func TestCreateRequest(t *testing.T) {
 	}
 
 	u, err := url.Parse(b.BaseURL + endpoint)
-	i
+	if err != nil {
+		
