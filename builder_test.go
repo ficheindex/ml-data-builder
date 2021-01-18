@@ -116,4 +116,4 @@ func TestCreateRequest(t *testing.T) {
 
 	u, err := url.Parse(b.BaseURL + endpoint)
 	if err != nil {
-		
+		t.Errorf("Error Occured: 
