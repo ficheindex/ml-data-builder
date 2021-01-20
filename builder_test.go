@@ -120,4 +120,5 @@ func TestCreateRequest(t *testing.T) {
 	}
 
 	want := &http.Request{
-		Meth
+		Method:     "GET",
+		U
