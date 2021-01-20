@@ -119,4 +119,5 @@ func TestCreateRequest(t *testing.T) {
 		t.Errorf("Error Occured: %v", err)
 	}
 
-	want
+	want := &http.Request{
+		Meth
