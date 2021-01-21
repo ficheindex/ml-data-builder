@@ -121,4 +121,5 @@ func TestCreateRequest(t *testing.T) {
 
 	want := &http.Request{
 		Method:     "GET",
-		U
+		URL:        u,
+		
