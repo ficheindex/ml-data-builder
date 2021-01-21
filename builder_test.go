@@ -122,4 +122,5 @@ func TestCreateRequest(t *testing.T) {
 	want := &http.Request{
 		Method:     "GET",
 		URL:        u,
+		Proto:      "HTTP/1.1",
 		
