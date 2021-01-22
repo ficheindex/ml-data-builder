@@ -124,4 +124,5 @@ func TestCreateRequest(t *testing.T) {
 		URL:        u,
 		Proto:      "HTTP/1.1",
 		ProtoMajor: 1,
-		Prot
+		ProtoMinor: 1,
+		Heade
