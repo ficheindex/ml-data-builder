@@ -125,4 +125,4 @@ func TestCreateRequest(t *testing.T) {
 		Proto:      "HTTP/1.1",
 		ProtoMajor: 1,
 		ProtoMinor: 1,
-		Heade
+		Header: map[string][]strin
