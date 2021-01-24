@@ -126,4 +126,4 @@ func TestCreateRequest(t *testing.T) {
 		ProtoMajor: 1,
 		ProtoMinor: 1,
 		Header: map[string][]string{
-			"Authoriz
+			"Authorization": []string{sa
