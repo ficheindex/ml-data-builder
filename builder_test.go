@@ -129,3 +129,5 @@ func TestCreateRequest(t *testing.T) {
 			"Authorization": []string{sampleOAuthHeader},
 		},
 		Body: nil,
+		Host: u.Host,
+	}
