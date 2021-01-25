@@ -127,4 +127,5 @@ func TestCreateRequest(t *testing.T) {
 		ProtoMinor: 1,
 		Header: map[string][]string{
 			"Authorization": []string{sampleOAuthHeader},
-	
+		},
+		Body: nil,
