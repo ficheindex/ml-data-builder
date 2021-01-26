@@ -131,3 +131,5 @@ func TestCreateRequest(t *testing.T) {
 		Body: nil,
 		Host: u.Host,
 	}
+
+	if reflect.Deep
