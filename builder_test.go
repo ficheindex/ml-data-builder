@@ -132,4 +132,4 @@ func TestCreateRequest(t *testing.T) {
 		Host: u.Host,
 	}
 
-	if reflect.Deep
+	if reflect.DeepEqual(got, want) 
