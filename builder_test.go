@@ -132,4 +132,5 @@ func TestCreateRequest(t *testing.T) {
 		Host: u.Host,
 	}
 
-	if reflect.DeepEqual(got, want) 
+	if reflect.DeepEqual(got, want) {
+		t.Fatalf("got: %v\n 
