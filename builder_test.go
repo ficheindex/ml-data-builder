@@ -133,4 +133,4 @@ func TestCreateRequest(t *testing.T) {
 	}
 
 	if reflect.DeepEqual(got, want) {
-		t.Fatalf("got: %v\n 
+		t.Fatalf("got: %v\n want: %v\n ",
