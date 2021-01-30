@@ -138,4 +138,5 @@ func TestCreateRequest(t *testing.T) {
 
 }
 
-func TestResolveFeatureEndpoints(t *testin
+func TestResolveFeatureEndpoints(t *testing.T) {
+	b := NewBu
