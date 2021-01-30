@@ -138,4 +138,4 @@ func TestCreateRequest(t *testing.T) {
 
 }
 
-func TestResolveFeature
+func TestResolveFeatureEndpoints(t *testin
