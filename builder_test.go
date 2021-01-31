@@ -139,4 +139,5 @@ func TestCreateRequest(t *testing.T) {
 }
 
 func TestResolveFeatureEndpoints(t *testing.T) {
-	b := NewBu
+	b := NewBuilder(2, 3)
+	b.Ba
