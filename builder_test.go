@@ -140,4 +140,4 @@ func TestCreateRequest(t *testing.T) {
 
 func TestResolveFeatureEndpoints(t *testing.T) {
 	b := NewBuilder(2, 3)
-	b.Ba
+	b.BaseURL = "baseurl.com
