@@ -142,4 +142,6 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 	b := NewBuilder(2, 3)
 	b.BaseURL = "baseurl.com"
 
-	f1 := &Feature
+	f1 := &Feature{
+		Name:     "feat1",
+		Endp
