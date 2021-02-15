@@ -144,4 +144,4 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 
 	f1 := &Feature{
 		Name:     "feat1",
-		Endp
+		Endpoint: "/endpoint1/
