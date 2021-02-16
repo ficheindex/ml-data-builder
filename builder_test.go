@@ -148,4 +148,5 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 	}
 
 	f2 := &Feature{
-		Na
+		Name:     "feat2",
+		Endp
