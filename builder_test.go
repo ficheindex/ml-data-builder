@@ -153,4 +153,6 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 	}
 
 	b.AddFeatures(f1, f2)
-	b.addFeatureData(f1.Name, []string{"one", "t
+	b.addFeatureData(f1.Name, []string{"one", "two", "three"})
+
+	got, err :=
