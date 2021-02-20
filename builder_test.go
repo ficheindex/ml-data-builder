@@ -157,4 +157,4 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 
 	got, err := b.resolveFeatureEndpoints(f2)
 	if err != nil {
-		t.Err
+		t.Errorf("Error Occured: %v"
