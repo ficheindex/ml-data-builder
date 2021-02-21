@@ -160,4 +160,5 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 		t.Errorf("Error Occured: %v", err)
 	}
 
-	w
+	want := []string{
+		"/endp
