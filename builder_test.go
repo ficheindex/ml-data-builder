@@ -163,4 +163,7 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 	want := []string{
 		"/endpoint2/one",
 		"/endpoint2/two",
-		"/endpoint2/thr
+		"/endpoint2/three",
+	}
+
+	if !reflect.D
