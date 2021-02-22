@@ -162,4 +162,4 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 
 	want := []string{
 		"/endpoint2/one",
-		"/en
+		"/endpoint2/two",
