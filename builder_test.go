@@ -167,4 +167,4 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(got, want) {
-		t.Fata
+		t.Fatalf("got: %v\n want:
