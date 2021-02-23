@@ -166,4 +166,5 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 		"/endpoint2/three",
 	}
 
-	if !reflect.DeepEqual(got, wan
+	if !reflect.DeepEqual(got, want) {
+		t.Fata
