@@ -171,4 +171,4 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 	}
 }
 
-// func TestRetrieveF
+// func TestRetrieveFeature(t *testing.T) {
