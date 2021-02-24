@@ -167,4 +167,8 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(got, want) {
-		t.Fatalf("got: %v\n want: %v\n ", got, wan
+		t.Fatalf("got: %v\n want: %v\n ", got, want)
+	}
+}
+
+// func
