@@ -172,3 +172,4 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 }
 
 // func TestRetrieveFeature(t *testing.T) {
+// 	b := NewBuilder(
