@@ -175,4 +175,6 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 // 	b := NewBuilder(4, 3)
 // }
 
-type fakeHttpClient stru
+type fakeHttpClient struct{}
+
+var fak
