@@ -177,4 +177,5 @@ func TestResolveFeatureEndpoints(t *testing.T) {
 
 type fakeHttpClient struct{}
 
-var fak
+var fakeResponseDump string = `
+{
