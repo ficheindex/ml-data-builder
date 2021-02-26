@@ -179,3 +179,5 @@ type fakeHttpClient struct{}
 
 var fakeResponseDump string = `
 {
+	id: 1000
+	id_str: "100
