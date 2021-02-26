@@ -180,4 +180,5 @@ type fakeHttpClient struct{}
 var fakeResponseDump string = `
 {
 	id: 1000
-	id_str: "100
+	id_str: "1000"
+	text: "this is a young tw
