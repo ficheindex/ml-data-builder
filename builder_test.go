@@ -181,4 +181,5 @@ var fakeResponseDump string = `
 {
 	id: 1000
 	id_str: "1000"
-	text: "this is a young tw
+	text: "this is a young tweet; tweety tweet tweet"
+}
