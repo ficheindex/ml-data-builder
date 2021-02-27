@@ -183,3 +183,6 @@ var fakeResponseDump string = `
 	id_str: "1000"
 	text: "this is a young tweet; tweety tweet tweet"
 }
+`
+
+func (fhc fake
