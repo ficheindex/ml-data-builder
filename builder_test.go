@@ -185,4 +185,4 @@ var fakeResponseDump string = `
 }
 `
 
-func (fhc fakeHttpClient) Do(req http.Req
+func (fhc fakeHttpClient) Do(req http.Request) (*http.Response,
