@@ -188,4 +188,5 @@ var fakeResponseDump string = `
 func (fhc fakeHttpClient) Do(req http.Request) (*http.Response, error) {
 	return &http.Response{
 		Status:     "200 OK",
-		StatusCode: 20
+		StatusCode: 200,
+		Body:       ioutil.Nop
