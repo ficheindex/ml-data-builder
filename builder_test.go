@@ -189,4 +189,4 @@ func (fhc fakeHttpClient) Do(req http.Request) (*http.Response, error) {
 	return &http.Response{
 		Status:     "200 OK",
 		StatusCode: 200,
-		Body:       ioutil.Nop
+		Body:       ioutil.NopCloser(bytes.
