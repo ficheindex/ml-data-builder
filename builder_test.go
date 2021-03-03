@@ -190,4 +190,7 @@ func (fhc fakeHttpClient) Do(req http.Request) (*http.Response, error) {
 		Status:     "200 OK",
 		StatusCode: 200,
 		Body:       ioutil.NopCloser(bytes.NewBufferString(fakeResponseDump)),
-	}
+	}, nil
+}
+
+func TestPopulate
