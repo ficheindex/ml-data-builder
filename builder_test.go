@@ -193,4 +193,4 @@ func (fhc fakeHttpClient) Do(req http.Request) (*http.Response, error) {
 	}, nil
 }
 
-func TestPopulate
+func TestPopulateFeatureData(t *testi
