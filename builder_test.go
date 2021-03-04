@@ -194,4 +194,5 @@ func (fhc fakeHttpClient) Do(req http.Request) (*http.Response, error) {
 }
 
 func TestPopulateFeatureData(t *testing.T) {
-	b := NewBuilder(1, 3
+	b := NewBuilder(1, 3)
+	fakeCli
