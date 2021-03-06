@@ -198,4 +198,5 @@ func TestPopulateFeatureData(t *testing.T) {
 	fakeClient := fakeHttpClient{}
 	b.BaseURL = "baseurl.com"
 	f := &Feature{
-		Name:     "f1
+		Name:     "f1",
+		Endpoint: "/endp
