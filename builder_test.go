@@ -199,4 +199,5 @@ func TestPopulateFeatureData(t *testing.T) {
 	b.BaseURL = "baseurl.com"
 	f := &Feature{
 		Name:     "f1",
-		Endpoint: "/endp
+		Endpoint: "/endpoint",
+		RunFunc: func
