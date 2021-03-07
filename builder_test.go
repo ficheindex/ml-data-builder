@@ -200,4 +200,5 @@ func TestPopulateFeatureData(t *testing.T) {
 	f := &Feature{
 		Name:     "f1",
 		Endpoint: "/endpoint",
-		RunFunc: func(res []string) []str
+		RunFunc: func(res []string) []string {
+			return 
