@@ -205,4 +205,4 @@ func TestPopulateFeatureData(t *testing.T) {
 		},
 	}
 
-	got, err := b.populateFeatureData
+	got, err := b.populateFeatureData(f, &fakeClient)
