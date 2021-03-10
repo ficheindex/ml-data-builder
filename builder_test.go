@@ -207,4 +207,6 @@ func TestPopulateFeatureData(t *testing.T) {
 
 	got, err := b.populateFeatureData(f, &fakeClient)
 	if err != nil {
-		t.Errorf("Error Occured: %v"
+		t.Errorf("Error Occured: %v", err)
+	}
+	if wa
