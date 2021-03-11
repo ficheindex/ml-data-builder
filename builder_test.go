@@ -209,4 +209,5 @@ func TestPopulateFeatureData(t *testing.T) {
 	if err != nil {
 		t.Errorf("Error Occured: %v", err)
 	}
-	if want := fakeResponseDu
+	if want := fakeResponseDump; got[0] != want {
+		
