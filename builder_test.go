@@ -211,3 +211,7 @@ func TestPopulateFeatureData(t *testing.T) {
 	}
 	if want := fakeResponseDump; got[0] != want {
 		t.Fatalf("got: %v\n want: %v\n", got, want)
+	}
+}
+
+func Test
