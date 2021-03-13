@@ -215,3 +215,4 @@ func TestPopulateFeatureData(t *testing.T) {
 }
 
 func TestRun(t *testing.T) {
+	t.Logf("TestRu
