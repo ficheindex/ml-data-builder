@@ -214,4 +214,4 @@ func TestPopulateFeatureData(t *testing.T) {
 	}
 }
 
-func Test
+func TestRun(t *testing.T) {
