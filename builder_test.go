@@ -216,4 +216,5 @@ func TestPopulateFeatureData(t *testing.T) {
 
 func TestRun(t *testing.T) {
 	t.Logf("TestRun started")
-	b :
+	b := NewBuilder(2, 3)
+	fa
