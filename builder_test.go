@@ -221,4 +221,5 @@ func TestRun(t *testing.T) {
 	b.BaseURL = "baseurl.com"
 	f1 := &Feature{
 		Name:     "f1",
-		Endpoint: "/e
+		Endpoint: "/endpoint",
+		RunFunc:
