@@ -220,4 +220,5 @@ func TestRun(t *testing.T) {
 	fakeClient := fakeHttpClient{}
 	b.BaseURL = "baseurl.com"
 	f1 := &Feature{
-		Name:     "f
+		Name:     "f1",
+		Endpoint: "/e
