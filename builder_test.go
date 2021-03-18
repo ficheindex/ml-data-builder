@@ -222,4 +222,5 @@ func TestRun(t *testing.T) {
 	f1 := &Feature{
 		Name:     "f1",
 		Endpoint: "/endpoint",
-		RunFunc: func(res []string)
+		RunFunc: func(res []string) []string {
+			ret
