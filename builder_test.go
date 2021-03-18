@@ -224,3 +224,6 @@ func TestRun(t *testing.T) {
 		Endpoint: "/endpoint",
 		RunFunc: func(res []string) []string {
 			return []string{"one", "two", "three"}
+		},
+	}
+	f2 := &Feat
