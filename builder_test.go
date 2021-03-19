@@ -226,4 +226,5 @@ func TestRun(t *testing.T) {
 			return []string{"one", "two", "three"}
 		},
 	}
-	f2 := &Feat
+	f2 := &Feature{
+		Name:     
