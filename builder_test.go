@@ -227,4 +227,5 @@ func TestRun(t *testing.T) {
 		},
 	}
 	f2 := &Feature{
-		Name:     
+		Name:     "f2",
+		Endp
