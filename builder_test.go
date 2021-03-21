@@ -230,4 +230,4 @@ func TestRun(t *testing.T) {
 		Name:     "f2",
 		Endpoint: "/endpoint2",
 		RunFunc: func(res []string) []string {
-			retu
+			return []string{"
