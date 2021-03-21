@@ -229,4 +229,5 @@ func TestRun(t *testing.T) {
 	f2 := &Feature{
 		Name:     "f2",
 		Endpoint: "/endpoint2",
-		RunFunc: func(res []
+		RunFunc: func(res []string) []string {
+			retu
