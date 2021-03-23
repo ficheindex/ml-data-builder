@@ -233,4 +233,5 @@ func TestRun(t *testing.T) {
 			return []string{"one", "two", "three"}
 		},
 	}
-	b.AddFe
+	b.AddFeatures(f1, f2)
+	err 
