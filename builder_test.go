@@ -234,4 +234,4 @@ func TestRun(t *testing.T) {
 		},
 	}
 	b.AddFeatures(f1, f2)
-	err 
+	err := b.Run(fakeClient)
