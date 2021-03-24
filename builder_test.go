@@ -238,3 +238,5 @@ func TestRun(t *testing.T) {
 	if err != nil {
 		t.Errorf("Error Occured: %v", err)
 	}
+	t.Log(b.data)
+}
