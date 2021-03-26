@@ -6,4 +6,5 @@ import (
 	"fmt"
 )
 
-builder d.Builder :=
+builder d.Builder := d.Builder{
+	BaseUR
