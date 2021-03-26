@@ -7,4 +7,4 @@ import (
 )
 
 builder d.Builder := d.Builder{
-	BaseUR
+	BaseURL: "localhost:8080",
