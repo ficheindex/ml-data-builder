@@ -12,4 +12,5 @@ builder d.Builder := d.Builder{
 		"Authorization": BasicOAuthHeader(
 			"OAUTH_CONSUMER_KEY",
 			"OAUTH_NONCE",
-			"OAU
+			"OAUTH_SIGNATURE",
+			"OAUTH_SIGNATURE_ME
