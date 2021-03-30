@@ -14,4 +14,9 @@ builder d.Builder := d.Builder{
 			"OAUTH_NONCE",
 			"OAUTH_SIGNATURE",
 			"OAUTH_SIGNATURE_METHOD", "OAUTH_TIMESTAMP",
-			"OAUT
+			"OAUTH_TOKEN",
+		),
+	},
+}
+
+builder.AddF
