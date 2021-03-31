@@ -21,4 +21,4 @@ builder d.Builder := d.Builder{
 
 builder.AddFeatures(
 	&d.Feature{
-	
+		Name: "item_ids",
