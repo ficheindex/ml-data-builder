@@ -30,4 +30,4 @@ builder.AddFeatures(
 	},
 	&d.Feature{
 		Name: "item_prices",
-		Endpoint: "/it
+		Endpoint: "/items/prices/{{it
