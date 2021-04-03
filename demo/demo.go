@@ -26,4 +26,7 @@ builder.AddFeatures(
 		RunFunc: func(response []string) []string {
 			responseMap = (make[map]string)
 			json.Unmarshal(response, &responseMap)
-		}
+		},
+	},
+	&d.Feature{
+		
