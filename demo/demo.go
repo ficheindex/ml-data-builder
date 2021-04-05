@@ -36,4 +36,5 @@ builder.AddFeatures(
 		},
 	},
 	&d.Feature{
-		Name: "item_categ
+		Name: "item_category",
+		Endpoint: "/items/cat
