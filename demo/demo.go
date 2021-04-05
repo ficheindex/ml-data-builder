@@ -36,4 +36,4 @@ builder.AddFeatures(
 		},
 	},
 	&d.Feature{
-	
+		Name: "item_categ
