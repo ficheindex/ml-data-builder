@@ -13,4 +13,4 @@ import (
 )
 
 const (
-	recordCo
+	recordCount    = 1000
