@@ -16,3 +16,5 @@ const (
 	recordCount    = 1000
 	randomIntRange = 10000
 )
+
+func randIntString
