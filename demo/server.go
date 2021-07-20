@@ -18,4 +18,5 @@ const (
 )
 
 func randIntStrings(count int) []string {
-	output := make([]string,
+	output := make([]string, count)
+	r :=
