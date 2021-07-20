@@ -20,4 +20,5 @@ const (
 func randIntStrings(count int) []string {
 	output := make([]string, count)
 	r := rand.New()
-	for i := 0; i < co
+	for i := 0; i < count; i++ {
+		output[i] =
