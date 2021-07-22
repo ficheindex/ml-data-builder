@@ -21,4 +21,6 @@ func randIntStrings(count int) []string {
 	output := make([]string, count)
 	r := rand.New()
 	for i := 0; i < count; i++ {
-		output[i] = strconv.Itoa(r.Int31n(random
+		output[i] = strconv.Itoa(r.Int31n(randomIntRange))
+	}
+}
