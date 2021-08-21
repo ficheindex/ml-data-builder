@@ -25,4 +25,4 @@ func randIntStrings(count int) []string {
 	}
 }
 
-func itemsH
+func itemsHandler(w http.Resp
