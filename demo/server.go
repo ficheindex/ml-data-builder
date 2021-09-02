@@ -26,4 +26,4 @@ func randIntStrings(count int) []string {
 }
 
 func itemsHandler(w http.ResponseWriter, r *http.Request) {
-	path :=
+	path := url.Parse(r.URL).Esc
