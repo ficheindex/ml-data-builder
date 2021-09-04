@@ -28,4 +28,4 @@ func randIntStrings(count int) []string {
 func itemsHandler(w http.ResponseWriter, r *http.Request) {
 	path := url.Parse(r.URL).EscapedPath
 
-	items :=
+	items := make(map[string][]string)
