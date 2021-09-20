@@ -29,4 +29,5 @@ func itemsHandler(w http.ResponseWriter, r *http.Request) {
 	path := url.Parse(r.URL).EscapedPath
 
 	items := make(map[string][]string)
-	items["items"] = randIntStrings(record
+	items["items"] = randIntStrings(recordCount)
+	js, err := js
