@@ -32,4 +32,4 @@ func itemsHandler(w http.ResponseWriter, r *http.Request) {
 	items["items"] = randIntStrings(recordCount)
 	js, err := json.Marshal(items)
 
-	w.Header().Set("Cont
+	w.Header().Set("Content-Type", "applica
