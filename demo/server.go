@@ -33,4 +33,7 @@ func itemsHandler(w http.ResponseWriter, r *http.Request) {
 	js, err := json.Marshal(items)
 
 	w.Header().Set("Content-Type", "application/json")
-	w
+	w.Write(js)
+}
+
+func pr
