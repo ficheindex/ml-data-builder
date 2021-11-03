@@ -36,4 +36,4 @@ func itemsHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write(js)
 }
 
-func pr
+func pricesHandler(w http.Resp
