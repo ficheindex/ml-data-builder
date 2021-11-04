@@ -36,4 +36,5 @@ func itemsHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write(js)
 }
 
-func pricesHandler(w http.ResponseWriter, r *htt
+func pricesHandler(w http.ResponseWriter, r *http.Request) {
+	path 
