@@ -37,4 +37,4 @@ func itemsHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func pricesHandler(w http.ResponseWriter, r *http.Request) {
-	path 
+	path := url.P
