@@ -37,4 +37,4 @@ func itemsHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func pricesHandler(w http.ResponseWriter, r *http.Request) {
-	path := url.P
+	path := url.Parse(r.URL).Esca
