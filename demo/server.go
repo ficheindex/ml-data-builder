@@ -39,4 +39,4 @@ func itemsHandler(w http.ResponseWriter, r *http.Request) {
 func pricesHandler(w http.ResponseWriter, r *http.Request) {
 	path := url.Parse(r.URL).EscapedPath
 
-	prices := m
+	prices := make(map[string][]string)
