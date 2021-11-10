@@ -40,4 +40,5 @@ func pricesHandler(w http.ResponseWriter, r *http.Request) {
 	path := url.Parse(r.URL).EscapedPath
 
 	prices := make(map[string][]string)
-	prices["prices"] = randIntStrings(
+	prices["prices"] = randIntStrings(recordCount)
+	js, er
