@@ -41,4 +41,4 @@ func pricesHandler(w http.ResponseWriter, r *http.Request) {
 
 	prices := make(map[string][]string)
 	prices["prices"] = randIntStrings(recordCount)
-	js, er
+	js, err := json.Marshal(p
