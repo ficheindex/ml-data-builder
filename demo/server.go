@@ -44,4 +44,8 @@ func pricesHandler(w http.ResponseWriter, r *http.Request) {
 	js, err := json.Marshal(prices)
 
 	w.Header().Set("Content-Type", "application/json")
-	w.Writ
+	w.Write(js)
+
+}
+
+func cate
