@@ -48,4 +48,5 @@ func pricesHandler(w http.ResponseWriter, r *http.Request) {
 
 }
 
-func categoryHandler(w http.ResponseWriter, r 
+func categoryHandler(w http.ResponseWriter, r *http.Request) {
+	categ
