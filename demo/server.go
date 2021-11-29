@@ -49,4 +49,4 @@ func pricesHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func categoryHandler(w http.ResponseWriter, r *http.Request) {
-	categories := []string{"category1",
+	categories := []string{"category1", "category2", "
