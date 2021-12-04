@@ -51,4 +51,4 @@ func pricesHandler(w http.ResponseWriter, r *http.Request) {
 func categoryHandler(w http.ResponseWriter, r *http.Request) {
 	categories := []string{"category1", "category2", "category3", "category4"}
 
-	w.Header().Set("Content-
+	w.Header().Set("Content-Type", "application
