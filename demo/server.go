@@ -56,4 +56,4 @@ func categoryHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	
+	http.HandleFunc("/
