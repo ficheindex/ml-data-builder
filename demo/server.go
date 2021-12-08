@@ -55,4 +55,5 @@ func categoryHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write(js)
 }
 
-fun
+func main() {
+	
