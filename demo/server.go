@@ -59,4 +59,5 @@ func main() {
 	http.HandleFunc("/api/items/", itemsHandler)
 	http.HandleFunc("/api/items/prices", pricesHandler)
 	http.HandleFunc("/api/items/categories", categoryHandler)
-	http.ListenAn
+	http.ListenAndServe(":8080", nil)
+}
