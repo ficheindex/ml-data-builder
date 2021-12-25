@@ -5,4 +5,4 @@ import (
 	"regexp"
 )
 
-// R
+// RunFunc holds the compu
