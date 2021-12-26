@@ -5,4 +5,4 @@ import (
 	"regexp"
 )
 
-// RunFunc holds the compu
+// RunFunc holds the computation that processes the 
