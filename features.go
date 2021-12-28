@@ -5,4 +5,5 @@ import (
 	"regexp"
 )
 
-// RunFunc holds the computation that processes the API responses to featur
+// RunFunc holds the computation that processes the API responses to features
+// is sent an array of JS
