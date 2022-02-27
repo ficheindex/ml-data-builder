@@ -16,4 +16,5 @@ type RunFunc func(responses []string) []string // parents map[string]string
 // Structs representing RetreiveType
 // SingleRetrieve Features only require one request to create the JSON Dump
 // that's passed to the RunFunc
-// Repeated Retrieve Features require one request per va
+// Repeated Retrieve Features require one request per value-set of
+// of parent
