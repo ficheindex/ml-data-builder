@@ -22,4 +22,8 @@ type RunFunc func(responses []string) []string // parents map[string]string
 // Almost as a given, all dependent features will be of RepeatedRetrieve per
 // value sets of their parent features
 const (
-	SingleRetrieve = i
+	SingleRetrieve = iota
+	RepeatedRetrieve
+)
+
+//
