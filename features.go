@@ -27,3 +27,4 @@ const (
 )
 
 // Feature in the dataset, on which all other features are based on
+type Feature str
