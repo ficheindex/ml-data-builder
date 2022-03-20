@@ -30,4 +30,4 @@ const (
 type Feature struct {
 	Name         string
 	Endpoint     string  // API Endpoint
-	RunFunc   
+	RunFunc      RunFunc // function that
