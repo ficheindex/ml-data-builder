@@ -36,4 +36,4 @@ type Feature struct {
 	finished     chan bool // if feature is finished
 }
 
-// Ne
+// NewFeature creates ne
