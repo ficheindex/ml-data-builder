@@ -37,4 +37,5 @@ type Feature struct {
 }
 
 // NewFeature creates new Feature with defaults
-func NewFea
+func NewFeature() *Feature {
+	return
