@@ -40,4 +40,8 @@ type Feature struct {
 func NewFeature() *Feature {
 	return &Feature{
 		noSave:   false,
-		finished: make(chan bool, 
+		finished: make(chan bool, 1),
+	}
+}
+
+// getParent
