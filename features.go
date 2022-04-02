@@ -40,4 +40,4 @@ type Feature struct {
 func NewFeature() *Feature {
 	return &Feature{
 		noSave:   false,
-		finished
+		finished: make(chan bool, 
