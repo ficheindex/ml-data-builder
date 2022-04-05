@@ -45,4 +45,5 @@ func NewFeature() *Feature {
 }
 
 // getParentNames returns strings of
-func (f *Feature) getParentNames() ([]s
+func (f *Feature) getParentNames() ([]string, error) {
+	// p
