@@ -53,4 +53,6 @@ func (f *Feature) getParentNames() ([]string, error) {
 	}
 	val := re.FindAllString(f.Endpoint, -1)
 	for i := range val {
-		val[i] = val[i][2 : len(val[i])-2] // trim off parent
+		val[i] = val[i][2 : len(val[i])-2] // trim off parentheses
+	}
+	return val, n
