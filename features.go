@@ -58,4 +58,5 @@ func (f *Feature) getParentNames() ([]string, error) {
 	return val, nil
 }
 
-// resolveEndpoint returns the Endpoint but with the actual parent values for that re
+// resolveEndpoint returns the Endpoint but with the actual parent values for that record inserted
+func (f 
