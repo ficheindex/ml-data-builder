@@ -72,3 +72,4 @@ func (f *Feature) resolveEndpoint(parentsValues map[string]string) (string, erro
 	}
 
 	return toReplace, nil
+}
