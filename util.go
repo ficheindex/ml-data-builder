@@ -13,4 +13,7 @@ func BasicOAuthHeader(consumerKey, nonce, signature, signatureMethod,
 		oauth_signature_method="%s",
 		oauth_timestamp="%s",
 		oauth_token="%s`,
-		consumerKey, nonce, signature, signatureMethod, timestamp, token
+		consumerKey, nonce, signature, signatureMethod, timestamp, token)
+}
+
+func writeStringColumn(d
