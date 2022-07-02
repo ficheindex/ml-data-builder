@@ -17,4 +17,5 @@ func BasicOAuthHeader(consumerKey, nonce, signature, signatureMethod,
 }
 
 func writeStringColumn(data [][]string, columnName string, values []string) {
-	var colInd
+	var colIndex int
+	for i := r
