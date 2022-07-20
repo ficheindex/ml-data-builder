@@ -23,3 +23,6 @@ func writeStringColumn(data [][]string, columnName string, values []string) {
 		if data[0][i] == "" || data[0][i] == columnName {
 			colIndex = i
 			data[0][i] = columnName
+			break
+		}
+	
