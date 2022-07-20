@@ -25,4 +25,5 @@ func writeStringColumn(data [][]string, columnName string, values []string) {
 			data[0][i] = columnName
 			break
 		}
-	
+	}
+	// Add all the value
