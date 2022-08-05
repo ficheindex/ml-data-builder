@@ -32,4 +32,4 @@ func writeStringColumn(data [][]string, columnName string, values []string) {
 	}
 }
 
-func readStr
+func readStringColumn(values []st
