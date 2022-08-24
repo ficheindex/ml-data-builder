@@ -37,4 +37,6 @@ func readStringColumn(values []string, columnName string, data [][]string) {
 	noMatch := false
 	for i := range data[0] {
 		if data[0][i] == columnName {
-			col
+			colIndex = i
+			break
+		}
