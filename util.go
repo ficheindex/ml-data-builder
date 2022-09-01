@@ -44,4 +44,4 @@ func readStringColumn(values []string, columnName string, data [][]string) {
 			noMatch = true
 		}
 	}
-	// Add all the values as well (rememb
+	// Add all the values as well (remember that Builder.data
