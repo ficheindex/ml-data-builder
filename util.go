@@ -50,4 +50,5 @@ func readStringColumn(values []string, columnName string, data [][]string) {
 			values[i-1] = ""
 			continue
 		}
-		val := data[i][colInd
+		val := data[i][colIndex]
+		values[i
