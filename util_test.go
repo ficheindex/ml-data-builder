@@ -3,4 +3,7 @@ package dsbldr
 import (
 	"fmt"
 	"reflect"
-	"testing
+	"testing"
+)
+
+func TestBasic
