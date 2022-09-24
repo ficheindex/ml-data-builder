@@ -7,4 +7,5 @@ import (
 )
 
 func TestBasicOAuthHeader(t *testing.T) {
-	consumerKey := "co
+	consumerKey := "consumerKey"
+	nonce := "nonc
