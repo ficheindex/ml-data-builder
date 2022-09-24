@@ -6,4 +6,5 @@ import (
 	"testing"
 )
 
-func TestBasicOAuthHeader(t *tes
+func TestBasicOAuthHeader(t *testing.T) {
+	consumerKey := "co
