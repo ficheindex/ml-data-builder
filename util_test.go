@@ -11,4 +11,4 @@ func TestBasicOAuthHeader(t *testing.T) {
 	nonce := "nonce"
 	signature := "signature"
 	signatureMethod := "signatureMethod"
-	
+	timestamp := "ti
