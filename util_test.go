@@ -14,4 +14,4 @@ func TestBasicOAuthHeader(t *testing.T) {
 	timestamp := "timestamp"
 	token := "token"
 
-	want := 
+	want := fmt.Sprintf(`OAuth oa
