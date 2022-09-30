@@ -14,4 +14,4 @@ func TestBasicOAuthHeader(t *testing.T) {
 	timestamp := "timestamp"
 	token := "token"
 
-	want := fmt.Sprintf(`OAuth oa
+	want := fmt.Sprintf(`OAuth oauth_consumer_key="%s",
