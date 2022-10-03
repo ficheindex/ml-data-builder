@@ -18,4 +18,4 @@ func TestBasicOAuthHeader(t *testing.T) {
 		oauth_nonce="%s",
 		oauth_signature="%s",
 		oauth_signature_method="%s",
-		oau
+		oauth_timestamp="%s",
