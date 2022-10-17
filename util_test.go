@@ -22,4 +22,5 @@ func TestBasicOAuthHeader(t *testing.T) {
 		oauth_token="%s`,
 		consumerKey, nonce, signature, signatureMethod, timestamp, token)
 
-	got := BasicOAuthHeader(consumerKey, nonce, signature, signatureMe
+	got := BasicOAuthHeader(consumerKey, nonce, signature, signatureMethod,
+		time
