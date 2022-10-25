@@ -25,4 +25,5 @@ func TestBasicOAuthHeader(t *testing.T) {
 	got := BasicOAuthHeader(consumerKey, nonce, signature, signatureMethod,
 		timestamp, token)
 
-	if g
+	if got != want {
+		t.Fatal
