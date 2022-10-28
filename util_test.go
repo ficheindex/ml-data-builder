@@ -30,4 +30,4 @@ func TestBasicOAuthHeader(t *testing.T) {
 	}
 }
 
-func
+func TestWriteStri
