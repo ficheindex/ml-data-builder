@@ -30,4 +30,4 @@ func TestBasicOAuthHeader(t *testing.T) {
 	}
 }
 
-func TestWriteStri
+func TestWriteStringColumn(t *testing.T) 
