@@ -37,4 +37,5 @@ func TestWriteStringColumn(t *testing.T) {
 		[]string{"a", "b", ""},
 		[]string{"a", "b", ""},
 	}
-	colName :=
+	colName := "c"
+	values := []strin
