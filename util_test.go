@@ -54,4 +54,5 @@ func TestWriteStringColumn(t *testing.T) {
 }
 
 func TestWriteStringColumnOverwrite(t *testing.T) {
-	data := [][]str
+	data := [][]string{
+		[]string{"a", "b", "c
