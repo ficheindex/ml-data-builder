@@ -76,4 +76,4 @@ func TestWriteStringColumnOverwrite(t *testing.T) {
 	}
 }
 
-func TestReadString
+func TestReadStringColumn(t *testing.T) {
