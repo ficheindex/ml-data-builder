@@ -89,4 +89,4 @@ func TestReadStringColumn(t *testing.T) {
 	want := []string{"c", "c", "c"}
 	readStringColumn(values, colName, data)
 
-	if got := va
+	if got := values; !reflect.Deep
