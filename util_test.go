@@ -90,4 +90,6 @@ func TestReadStringColumn(t *testing.T) {
 	readStringColumn(values, colName, data)
 
 	if got := values; !reflect.DeepEqual(got, want) {
-		t.Fatalf("got: %v\n want: %
+		t.Fatalf("got: %v\n want: %v\n ", got, want)
+	}
+}
