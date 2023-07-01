@@ -94,4 +94,4 @@ func TestReadStringColumn(t *testing.T) {
 	}
 }
 
-func TestRe
+func TestReadStringColumnWith
