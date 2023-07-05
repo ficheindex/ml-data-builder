@@ -94,4 +94,4 @@ func TestReadStringColumn(t *testing.T) {
 	}
 }
 
-func TestReadStringColumnWith
+func TestReadStringColumnWithNoHeader(t *testing
