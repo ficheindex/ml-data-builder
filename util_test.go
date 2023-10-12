@@ -107,4 +107,5 @@ func TestReadStringColumnWithNoHeader(t *testing.T) {
 	want := []string{"", "", ""}
 	readStringColumn(values, colName, data)
 
-	if got := values; !reflect.DeepEqual(g
+	if got := values; !reflect.DeepEqual(got, want) {
+		t.Fatalf
